@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Schoolbell", cursive;
+}
+
+h1 {
+    margin: 10px 0px;
+    text-align: center;
+    color: #b31212;
+}
+
+h2 {
+    color: #d42b2b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+    margin: 5px auto;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+li {
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+}
+
+a {
+    text-align: center;
+}
