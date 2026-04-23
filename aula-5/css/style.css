@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cossette Texte", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 25px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.nav-item > a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero > p {
+    width: 500px;
+    margin: 25px auto;
+}
+
+.hero > button {
+    margin: 20px auto;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: black;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+figure > img {
+    width: 600px;
+    margin: 10px auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
