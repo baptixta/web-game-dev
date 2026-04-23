@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    background-color: #252525;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    border: 1px solid #fff;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 800px;
+}
+
+.hero > h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero > p {
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.hero > button {
+    margin-bottom: 25px;
+    border: none;
+    background-color: #ff2e2e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.hero > button > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    height: 600px;
+}
+
+aside {
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    background-color: #3f3f3f;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenshot {
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    margin: 30px auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 50px;
+}
+
+footer > a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    margin: 0px 10px;
+}
+
+.menu-item > a {
+    color: #fff;
+    text-decoration: none;
+}
