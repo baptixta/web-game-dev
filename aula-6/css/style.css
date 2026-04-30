@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #e81a1a;
+    --secondary-color: #880e0e;
+    --highlight-color: #0077ff;
+    --margin-small: 10px;
+}
+
+body {
+    height: 3000px;
+}
+
+/* Position */
+
+.container {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    color: var(--primary-color);
+    position: relative;
+}
+
+h2 {
+    margin: 10px 0 20px;
+    color: var(--primary-color);
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    font-weight: 900;
+    padding: 10px;
+    color: #fff;
+}
+
+.box-um {
+    background-color: #314a59;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 0;
+}
+
+.box-dois {
+    background-color: #213c4d;
+    position: relative;
+    left: 120px;
+    z-index: 0;
+}
+
+.box-tres {
+    background-color: #3379a5;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    z-index: 0;
+}
+
+.box-fixed {
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+/* Transform */
+
+.container-transform {
+    width: 40%;
+    height: 40vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.box-transform {
+    width: 20%;
+    height: 40%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all .5s;
+}
+
+.scale {
+    font-size: 20px;    
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.skew:hover {
+    transform: skew(-20deg);
+}
+
+.rotate:hover {
+    transform: rotate(720deg);
+}
+
+.translate:hover {
+    transform: translate(5px, 50px);
+}
+
+/* Usando variáveis */
+
+.title-1 {
+    color: var(--primary-color);
+    margin: var(--margin-small);
+}
+
+.title-2 {
+    color: var(--secondary-color);
+    margin: var(--margin-small);
+}
+
+.title-3 {
+    color: var(--highlight-color);
+    margin: var(--margin-small);
+}
