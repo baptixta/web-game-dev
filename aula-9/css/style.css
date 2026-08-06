@@ -1,0 +1,119 @@
+/* fontes do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.btn-mouse {
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: #5182ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Schoolbell", cursive;
+    font-weight: 900;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn-mouse:hover {
+    transform: scale(1.1);
+    cursor: pointer;    
+    background-color: #ff518e;
+}
+
+.btn-animation {
+    animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #5182ff;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: #ff518e;
+        transform: scale(1.1);       
+    }
+
+    100% {
+        background-color: #5182ff;  
+        transform: scale(1);       
+    }
+}
+
+.sky {
+    width: 300px;
+    height: 200px;
+    margin: 100px 0;
+    background-color: #5182ff;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.rocket {
+    font-size: 30px;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+.sky:hover {
+    background: #1a1a1a;
+    cursor: pointer;
+}
+
+.sky:hover .rocket {
+    translate: 230px;
+}
+
+.sky:hover .text-secret {
+    opacity: 1;
+}
+
+.text-secret {
+    color: #fff;
+    font-family: "Schoolbell", cursive;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.flash {
+    border: 0;
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Schoolbell", cursive;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 50px 0;
+    animation: flash 0.5s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
