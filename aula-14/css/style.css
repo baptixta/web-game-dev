@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.profile, .experience, .skills {
+    background: #212529;
+    background: linear-gradient(90deg, rgba(33, 37, 41, 1) 0%, rgba(59, 32, 42, 1) 50%, rgba(33, 37, 41, 1) 100%);
+}
+
+.profile {
+   padding-top: 120px;
+}

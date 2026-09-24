@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Baptixta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav align-items-start align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-danger">Contato</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <section id="profile" class="profile pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="profile-picture col-12 col-md-3">
+                        <img class="img-fluid rounded" src="/img/baptixta-portrait.png" alt="Baptixta Retrato">
+                    </div>
+
+                    <div class="profile-info col-12 col-md-9 mt-4 mt-lg-0">
+                        <p class="text-light">PORTFÓLIO</p>
+                        <h1 class="text-light">Davi Baptixta</h1>
+                        <p class="text-light"><i class="bi bi-controller"></i> Sênior - Game Designer</p>
+
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+                            accusamus commodi officia molestiae modi autem beatae libero eligendi repellat aperiam!</p>
+
+                        <p class="text-light">
+                            <i class="bi bi-geo-alt"></i> São Paulo, SP · Aberto a trabalho remoto
+                        </p>
+
+                        <div class="d-flex gap-2">
+                            <a href="" class="btn btn-sm btn-outline-light">
+                                <i class="bi bi-linkedin"></i> Linkedin
+                            </a>
+                            <a href="" class="btn btn-sm btn-outline-light">
+                                <i class="bi bi-instagram me-1"></i>Instagram
+                            </a>
+                            <a href="" class="btn btn-sm btn-outline-light">
+                                <i class="bi bi-substack me-1"></i>Newsletter
+                            </a>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="d-flex gap-2">
+                                <div class="bg-dark rounded-3 text-bg-dark col-sm-4 p-2">
+                                    <p class="text-light m-0 fs-6">Área</p>
+                                    <h4 class="text-light fs-5 m-0">Game Design</h4>
+                                </div>
+
+                                <div class="bg-dark rounded-3 text-bg-dark col-sm-4 p-2">
+                                    <p class="text-light m-0 fs-6">Senioridade</p>
+                                    <h4 class="text-light fs-5 m-0">Sênior · 8+ anos</h4>
+                                </div>
+
+                                <div class="bg-dark rounded-3 text-bg-dark col-sm-4 p-2">
+                                    <p class="text-light m-0 fs-6">Disponibilidade</p>
+                                    <h4 class="text-light fs-5 m-0">Em 2 semanas</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h4 class="text-danger fs-6">SOBRE</h4>
+                        <h2 class="text-white">Lorem, ipsum dolor.</h2>
+                        <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+                            doloremque provident deserunt. Aliquam et numquam maxime ex nesciunt qui quibusdam!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience py-5">
+            <div class="container">
+                <div class="row">
+                    <h4 class="text-danger fs-6">TRAJETÓRIA</h4>
+                    <h2 class="text-white">Experiência Profissional</h2>
+
+                    <div class="accordion mt-4" id="accordionExample">
+                        <div class="accordion-item border border-0 my-4 rounded">
+                            <h2 class="accordion-header position-relative">
+                                <button class="accordion-button bg-dark text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Empresa 1 - Game Designer
+
+                                    <span class="position-absolute end-0 pe-5"> <span
+                                            class="badge text-bg-danger p-2">Atual</span> 2021 - Presente</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-dark text-white">
+                                    <h4>Responsabilidades</h4>
+                                    <ul class="text-secondary">
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Consectetur adipisicing elit. Minima, in!</li>
+                                        <li>Necessitatibus numquam blanditiis ex! Soluta, modi aperiam.</li>
+                                    </ul>
+
+                                    <h4>Jogos Publicados</h4>
+                                    <ul class="text-secondary">
+                                        <li>Crazy Samurai (PC, PS5, Switch)</li>
+                                        <li>Crazy Shapes (iOS, Android)</li>
+                                    </ul>
+
+                                    <h4>Stack Utilizado</h4>
+                                    <span class="badge text-bg-danger p-2"><i class="bi bi-unity"></i> Unity</span>
+                                    <span class="badge text-bg-danger p-2"><i class="bi bi-controller"></i> Design de
+                                        Combate</span>
+                                    <span class="badge text-bg-danger p-2"><i class="bi bi-arrow-clockwise"></i> Live
+                                        Ops</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border border-0 my-4 rounded">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Accordion Item #2 <span class="position-absolute end-0 pe-5"> 2019 - 2020</span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-dark text-white">
+                                    <h4>Responsabilidades</h4>
+                                    <ul class="text-secondary">
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Consectetur adipisicing elit. Minima, in!</li>
+                                        <li>Necessitatibus numquam blanditiis ex! Soluta, modi aperiam.</li>
+                                    </ul>
+
+                                    <h4>Jogos Publicados</h4>
+                                    <ul class="text-secondary">
+                                        <li>Crazy Samurai (PC, PS5, Switch)</li>
+                                        <li>Crazy Shapes (iOS, Android)</li>
+                                    </ul>
+
+                                    <h4>Stack Utilizado</h4>
+                                    <span class="badge text-bg-danger p-2">Unity</span>
+                                    <span class="badge text-bg-danger p-2">Design de Combate</span>
+                                    <span class="badge text-bg-danger p-2">Live Ops</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border border-0 my-4 rounded">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-dark text-white  collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Accordion Item #3 <span class="position-absolute end-0 pe-5"> 2015 - 2018</span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-dark text-white">
+                                    <h4>Responsabilidades</h4>
+                                    <ul class="text-secondary">
+                                        <li>Lorem ipsum dolor sit amet.</li>
+                                        <li>Consectetur adipisicing elit. Minima, in!</li>
+                                        <li>Necessitatibus numquam blanditiis ex! Soluta, modi aperiam.</li>
+                                    </ul>
+
+                                    <h4>Jogos Publicados</h4>
+                                    <ul class="text-secondary">
+                                        <li>Crazy Samurai (PC, PS5, Switch)</li>
+                                        <li>Crazy Shapes (iOS, Android)</li>
+                                    </ul>
+
+                                    <h4>Stack Utilizado</h4>
+                                    <span class="badge text-bg-danger p-2">Unity</span>
+                                    <span class="badge text-bg-danger p-2">Design de Combate</span>
+                                    <span class="badge text-bg-danger p-2">Live Ops</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="text-white my-5">Educação</h2>
+
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <div class="alert bg-dark text-white position-relative fw-bold" role="alert">
+                                Digital Product Management
+                                <span class="position-absolute end-0 pe-3 text-secondary">FIAP (2025 - 2026)</span>
+                            </div>
+
+                            <div class="alert bg-dark text-white position-relative fw-bold" role="alert">
+                                Jogos Digitais
+                                <span class="position-absolute end-0 pe-3 text-secondary">FIAP (2019 - 2020)</span>
+                            </div>
+
+                            <div class="alert bg-dark text-white position-relative fw-bold" role="alert">
+                                Ensino Médio Técnico de Informática
+                                <span class="position-absolute end-0 pe-3 text-secondary">FIAP School (2016 -
+                                    2018)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work py-5">
+            <div class="container">
+                <h4 class="text-danger fs-6">CASES</h4>
+                <h2 class="text-white">Jogos</h2>
+
+                <div class="row mt-5">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <!-- INÍCIO CARD -->
+                        <div class="card text-bg-danger mb-3">
+                            <div class="card-header">Projeto Comercial</div>
+                            <img src="/img/games/woe.png" class="card-img-top" alt="Woe Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Woe</h5>
+                                <p class="card-text">Confinado em um pesadelo.</p>
+                                <div class="d-flex d-md-block d-lg-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="badge text-bg-dark">PC</span>
+                                        <span class="badge text-bg-dark">Bullet Hell</span>
+                                    </div>
+
+                                    <button type="button" class="btn btn-dark mt-md-2 mt-lg-0" data-bs-toggle="modal"
+                                        data-bs-target="#woe">
+                                        Ver Mais
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="woe" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark text-white">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Woe</h1>
+                                        <button type="button" class="btn-close text-white" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-dark text-white">
+                                        <h3>Trailer</h3>
+                                        <iframe width="100%" height="200px"
+                                            src="https://www.youtube.com/embed/FSfmabDU0lc?si=PrvX_8MRPEcbqxEL"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div>
+                                            <span class="badge text-bg-dark mb-3"><i class="bi bi-controller"></i>
+                                                ITCH.IO</span>
+                                        </div>
+
+                                        <p>Woe is about dealing with yourself.</p>
+                                        <p>Deal with your inner self, and defeat your fears confined inside your mind.
+                                        </p>
+
+                                        <h3 class="mt-5">Screenshots</h3>
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="/img/games/avalon.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/fall-effect.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/skate-create.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Responsabilidades</h3>
+                                            <ul>
+                                                <li>Enemy/Boss Design</li>
+                                                <li>Level Design</li>
+                                                <li>Balanceamento</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Minha Experiência</h3>
+                                            <p>Esse foi o primeiro projeto comercial que eu trabalhei. Por trabalharmos
+                                                numa equipe pequena (4 pessoas), eu construí o GDD (Game Design
+                                                Document) inteiro e criei, balanceei e iterei as mecânicas e sistemas do
+                                                jogo do começo ao fim com o programador.</p>
+
+                                            <p>
+                                                Além disso, foi a primeira vez que tive a oportunidade de criar fases
+                                                (fiz quase todas as fases do jogo), e pude colocar em prática a ideia de
+                                                ir apresentando mecânicas aos poucos conforme as fases avançam, e ir
+                                                dificultando aos poucos.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CARD -->
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <!-- INÍCIO CARD -->
+                        <div class="card text-bg-danger mb-3">
+                            <div class="card-header">Projeto Pessoal</div>
+                            <img src="/img/games/skate-create.png" class="card-img-top" alt="Woe Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Skate Create</h5>
+                                <p class="card-text">Crie manobras de skate.</p>
+                                <div class="d-flex d-md-block d-lg-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="badge text-bg-dark">PC</span>
+                                        <span class="badge text-bg-dark">Card Shuffle</span>
+                                    </div>
+
+                                    <button type="button" class="btn btn-dark mt-md-2 mt-lg-0" data-bs-toggle="modal"
+                                        data-bs-target="#skate">
+                                        Ver Mais
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="skate" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark text-white">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Skate Create</h1>
+                                        <button type="button" class="btn-close text-white" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-dark text-white">
+                                        <h3>Trailer</h3>
+                                        <iframe width="100%" height="200px"
+                                            src="https://www.youtube.com/embed/FSfmabDU0lc?si=PrvX_8MRPEcbqxEL"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div>
+                                            <span class="badge text-bg-dark mb-3"><i class="bi bi-controller"></i>
+                                                ITCH.IO</span>
+                                        </div>
+
+                                        <p>Woe is about dealing with yourself.</p>
+                                        <p>Deal with your inner self, and defeat your fears confined inside your mind.
+                                        </p>
+
+                                        <h3 class="mt-5">Screenshots</h3>
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="/img/games/avalon.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/fall-effect.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/skate-create.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Responsabilidades</h3>
+                                            <ul>
+                                                <li>Enemy/Boss Design</li>
+                                                <li>Level Design</li>
+                                                <li>Balanceamento</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Minha Experiência</h3>
+                                            <p>Esse foi o primeiro projeto comercial que eu trabalhei. Por trabalharmos
+                                                numa equipe pequena (4 pessoas), eu construí o GDD (Game Design
+                                                Document) inteiro e criei, balanceei e iterei as mecânicas e sistemas do
+                                                jogo do começo ao fim com o programador.</p>
+
+                                            <p>
+                                                Além disso, foi a primeira vez que tive a oportunidade de criar fases
+                                                (fiz quase todas as fases do jogo), e pude colocar em prática a ideia de
+                                                ir apresentando mecânicas aos poucos conforme as fases avançam, e ir
+                                                dificultando aos poucos.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CARD -->
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <!-- INÍCIO CARD -->
+                        <div class="card text-bg-danger mb-3">
+                            <div class="card-header">Projeto Comercial</div>
+                            <img src="/img/games/avalon.png" class="card-img-top" alt="Woe Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Avalon</h5>
+                                <p class="card-text">Se torne um guerreiro.</p>
+                                <div class="d-flex d-md-block d-lg-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="badge text-bg-dark">PC</span>
+                                        <span class="badge text-bg-dark">Plataforma</span>
+                                    </div>
+
+                                    <button type="button" class="btn btn-dark mt-md-2 mt-lg-0" data-bs-toggle="modal"
+                                        data-bs-target="#avalon">
+                                        Ver Mais
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="avalon" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark text-white">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Avalon</h1>
+                                        <button type="button" class="btn-close text-white" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-dark text-white">
+                                        <h3>Trailer</h3>
+                                        <iframe width="100%" height="200px"
+                                            src="https://www.youtube.com/embed/FSfmabDU0lc?si=PrvX_8MRPEcbqxEL"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div>
+                                            <span class="badge text-bg-dark mb-3"><i class="bi bi-controller"></i>
+                                                ITCH.IO</span>
+                                        </div>
+
+                                        <p>Woe is about dealing with yourself.</p>
+                                        <p>Deal with your inner self, and defeat your fears confined inside your mind.
+                                        </p>
+
+                                        <h3 class="mt-5">Screenshots</h3>
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="/img/games/avalon.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/fall-effect.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/skate-create.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Responsabilidades</h3>
+                                            <ul>
+                                                <li>Enemy/Boss Design</li>
+                                                <li>Level Design</li>
+                                                <li>Balanceamento</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Minha Experiência</h3>
+                                            <p>Esse foi o primeiro projeto comercial que eu trabalhei. Por trabalharmos
+                                                numa equipe pequena (4 pessoas), eu construí o GDD (Game Design
+                                                Document) inteiro e criei, balanceei e iterei as mecânicas e sistemas do
+                                                jogo do começo ao fim com o programador.</p>
+
+                                            <p>
+                                                Além disso, foi a primeira vez que tive a oportunidade de criar fases
+                                                (fiz quase todas as fases do jogo), e pude colocar em prática a ideia de
+                                                ir apresentando mecânicas aos poucos conforme as fases avançam, e ir
+                                                dificultando aos poucos.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CARD -->
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <!-- INÍCIO CARD -->
+                        <div class="card text-bg-danger mb-3">
+                            <div class="card-header">Game Jam</div>
+                            <img src="/img/games/fall-effect.png" class="card-img-top" alt="Woe Game">
+                            <div class="card-body">
+                                <h5 class="card-title">Fall Effect</h5>
+                                <p class="card-text">Sobreviva o maior tempo.</p>
+                                <div class="d-flex d-md-block d-lg-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="badge text-bg-dark">PC</span>
+                                        <span class="badge text-bg-dark">Plataforma</span>
+                                    </div>
+
+                                    <button type="button" class="btn btn-dark mt-md-2 mt-lg-0" data-bs-toggle="modal"
+                                        data-bs-target="#fall">
+                                        Ver Mais
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="fall" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-dark text-white">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Fall Effect</h1>
+                                        <button type="button" class="btn-close text-white" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body bg-dark text-white">
+                                        <h3>Trailer</h3>
+                                        <iframe width="100%" height="200px"
+                                            src="https://www.youtube.com/embed/FSfmabDU0lc?si=PrvX_8MRPEcbqxEL"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        <div>
+                                            <span class="badge text-bg-dark mb-3"><i class="bi bi-controller"></i>
+                                                ITCH.IO</span>
+                                        </div>
+
+                                        <p>Woe is about dealing with yourself.</p>
+                                        <p>Deal with your inner self, and defeat your fears confined inside your mind.
+                                        </p>
+
+                                        <h3 class="mt-5">Screenshots</h3>
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="/img/games/avalon.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/fall-effect.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/img/games/skate-create.png" class="d-block w-100"
+                                                        alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Responsabilidades</h3>
+                                            <ul>
+                                                <li>Enemy/Boss Design</li>
+                                                <li>Level Design</li>
+                                                <li>Balanceamento</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="container mt-5">
+                                            <h3>Minha Experiência</h3>
+                                            <p>Esse foi o primeiro projeto comercial que eu trabalhei. Por trabalharmos
+                                                numa equipe pequena (4 pessoas), eu construí o GDD (Game Design
+                                                Document) inteiro e criei, balanceei e iterei as mecânicas e sistemas do
+                                                jogo do começo ao fim com o programador.</p>
+
+                                            <p>
+                                                Além disso, foi a primeira vez que tive a oportunidade de criar fases
+                                                (fiz quase todas as fases do jogo), e pude colocar em prática a ideia de
+                                                ir apresentando mecânicas aos poucos conforme as fases avançam, e ir
+                                                dificultando aos poucos.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CARD -->
+                    </div>
+                </div>
+        </section>
+
+        <section id="skills" class="skills py-5">
+            <div class="container">
+                <h4 class="text-danger fs-6">FERRAMENTAS</h4>
+                <h2 class="text-white">Habilidades</h2>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="fs-5 text-white mt-5">Ferramentas & disciplinas</h4>
+                        <div>
+                            <span class="badge text-bg-danger my-1">Unity</span>
+                            <span class="badge text-bg-danger my-1">Maya</span>
+                            <span class="badge text-bg-danger my-1">C#</span>
+                            <span class="badge text-bg-danger my-1">Photoshop</span>
+                            <span class="badge text-bg-danger my-1">Modelagem 3D</span>
+                            <span class="badge text-bg-danger my-1">HTML</span>
+                            <span class="badge text-bg-danger my-1">CSS</span>
+                            <span class="badge text-bg-danger my-1">Javascript</span>
+                            <span class="badge text-bg-danger my-1">Unreal 4</span>
+                            <span class="badge text-bg-danger my-1">Unreal 5</span>
+                            <span class="badge text-bg-danger my-1">Roteiro</span>
+                            <span class="badge text-bg-danger my-1">Game Design</span>
+                            <span class="badge text-bg-danger my-1">Level Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact py-5">
+            <div class="container">
+                <h4 class="text-danger fs-6">CONTATO</h4>
+                <h2 class="text-white">Vamos conversar!</h2>
+
+                <form action="submit">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 my-4">
+                            <div class="input-group">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Fulano">
+                                    <label for="floatingInput">Nome</label>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput2"
+                                        placeholder="fulano@gmail.com">
+                                    <label for="floatingInput2">Endereço de e-mail</label>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Sua mensagem</label>
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn btn-danger mt-4">Enviar Mensagem</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-body-tertiary text-white" data-bs-theme="dark">
+        <div class="container py-4">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    © 2026 Baptixta · Portfólio de Game Design
+                </div>
+
+                <div class="d-flex fs-4">
+                    <div class="social-media mx-2">
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+
+                    <div class="social-media mx-2">
+                        <i class="bi bi-instagram me-1"></i>
+                    </div>
+
+                    <div class="social-media mx-2">
+                        <i class="bi bi-substack me-1"></i>
+                    </div>
+
+                    <div class="social-media mx-2">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
